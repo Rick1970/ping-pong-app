@@ -13,6 +13,9 @@ $(document).ready(function() {
           if (i % 3 === 0){
            list += "<b>ping</b>";
          }
+          else if (i % 5 === 0){
+            list += "<b>pong</b>"
+                    }
          else {
            list += i;
         }
