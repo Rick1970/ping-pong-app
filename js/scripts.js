@@ -8,25 +8,23 @@ $(document).ready(function() {
 
     var input = $("input#number").val();
     parseInt(input);
-        for (var i = 0; i < test2; i ++) {
+        for (var i = 1; i <= test2; i ++) {
           list += "<li>";
-          if (i % 3 === 0){
+          if ((i % 3 === 0) && (i % 5 === 0)){
+            list += "<b>ping-pong</b>"
+          }
+          else if ((i % 3 === 0) && (i % 5 !== 0)){
            list += "<b>ping</b>";
          }
-          else if (i % 5 === 0){
+          else if ((i % 5 === 0) && (i % 5 !== 0)){
             list += "<b>pong</b>"
                     }
-         else {
+          else {
            list += i;
         }
           list += "</li>";
 
-          // if (counter % === 3) {
-          //
-          //
-          //
-          //
-          // }
+
     // $("#final").append("<li>" + i +"</li>");
 
     }
