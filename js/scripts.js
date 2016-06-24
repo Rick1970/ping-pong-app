@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     var input = $("input#number").val();
     parseInt(input);
-    // input.split();
+    input.split();
     for (var counter = 0; counter < input; counter ++) {
     $("#final").append("<li>" + counter +"</li>");
 
