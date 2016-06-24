@@ -5,7 +5,6 @@ $(document).ready(function() {
     var test = document.getElementById("ping-pong");
     var test2 = test.elements[0].value;
     var list = "";
-
     var input = $("input#number").val();
     parseInt(input);
         for (var i = 1; i <= test2; i ++) {
@@ -16,18 +15,14 @@ $(document).ready(function() {
           else if ((i % 3 === 0) && (i % 5 !== 0)){
            list += "<b>ping</b>";
          }
-          else if ((i % 5 === 0) && (i % 5 !== 0)){
+          else if ((i % 5 === 0) && (i % 3 !== 0)){
             list += "<b>pong</b>"
                     }
           else {
            list += i;
         }
           list += "</li>";
-
-
-    // $("#final").append("<li>" + i +"</li>");
-
-    }
-     document.getElementById("results").innerHTML = list;
+    };
+         document.getElementById("results").innerHTML = list;
   });
 });
