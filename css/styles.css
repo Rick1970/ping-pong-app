@@ -1,9 +1,11 @@
 .jumbotron {
   text-align: center;
   margin: 20px;
-  background-color: #FAC9B8;
+  color: silver;
+  background-color: #020100;
 }
 
 body {
-  background-color: #C1ABA6; 
+  background-image: url("http://cdn.slashgear.com/wp-content/uploads/2015/09/star_destroyer.jpg");
+  color: white;
 }

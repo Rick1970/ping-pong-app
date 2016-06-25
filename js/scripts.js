@@ -1,7 +1,11 @@
-// jQuery user interface logic here.
+// user interface logic here.
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
+
+
+    // business interface logic here.
+    
     var test = document.getElementById("ping-pong");
     var test2 = test.elements[0].value;
     var list = "";
