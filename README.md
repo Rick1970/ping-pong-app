@@ -6,11 +6,11 @@
 
 ## Description
 
-_Takes a numerical input, and prints numbers from 0 to the inputted number, including the inputted number.  The backend code sorts through the input, and assigns the word ping to numbers that are divisible by 3; pong to numbers divisible by 5, and; ping-pong to numbers divisible by 15.  The program displays the input on the screen. 06/24/2016_
+_Takes a numerical input, and prints numbers from 0 to the inputted number, including the inputted number.  The backend code sorts through the input, and assigns the word ping to numbers that are divisible by 3; pong to numbers divisible by 5, and; ping-pong to numbers divisible by 15.  The program displays the input on the screen. 06/24/2016_ _[https://rick1970.github.io/ping-pong-app/]_
 
 ## Setup/Installation Requirements
 
-_File can be cloned from Github @ [https://github.com/Rick1970/ping-pong-ap.git].
+_File can be cloned from Github @ [https://github.com/Rick1970/ping-pong-app.git].
 Open with text editor of your choice.
 Run in browser of your choice._
 
