@@ -5,22 +5,25 @@ $(document).ready(function() {
 
 
     // business interface logic here.
-    
-    var test = document.getElementById("ping-pong");
-    var test2 = test.elements[0].value;
+
+    var input = document.getElementById("ping-pong");
+    // var test = $("form#ping-pong").val();
+    // var test2 = parseInt(test);
+    // var test3 = test2.split();
+    var input2 = input.elements[0].value;
     var list = "";
-    var input = $("input#number").val();
-    parseInt(input);
-        for (var i = 1; i <= test2; i ++) {
+    // var input = $("input#number").val();
+    // parseInt(input);
+        for (var i = 1; i <= input2; i ++) {
           list += "<li>";
           if ((i % 3 === 0) && (i % 5 === 0)){
-            list += "<b>ping-pong</b>"
+            list += "<i>ping-pong</i>"
           }
           else if ((i % 3 === 0) && (i % 5 !== 0)){
-           list += "<b>ping</b>";
+           list += "<i>ping</i>";
          }
           else if ((i % 5 === 0) && (i % 3 !== 0)){
-            list += "<b>pong</b>"
+            list += "<i>pong</i>"
                     }
           else {
            list += i;
