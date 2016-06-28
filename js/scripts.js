@@ -6,15 +6,12 @@ $(document).ready(function() {
 
     // business interface logic here.
 
-    var input = document.getElementById("ping-pong");
-    // var test = $("form#ping-pong").val();
-    // var test2 = parseInt(test);
-    // var test3 = test2.split();
-    var input2 = input.elements[0].value;
+
+    var inputNum = $("input#number").val();
+    var inputNum2 = parseInt(inputNum);
     var list = "";
-    // var input = $("input#number").val();
-    // parseInt(input);
-        for (var i = 1; i <= input2; i ++) {
+
+        for (var i = 1; i <= inputNum2; i ++) {
           list += "<li>";
           if ((i % 3 === 0) && (i % 5 === 0)){
             list += "<i>ping-pong</i>"
@@ -31,5 +28,6 @@ $(document).ready(function() {
           list += "</li>";
     };
          document.getElementById("results").innerHTML = list;
+
   });
 });
