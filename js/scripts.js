@@ -1,4 +1,4 @@
-/ user interface logic here.
+// / user interface logic here.
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
